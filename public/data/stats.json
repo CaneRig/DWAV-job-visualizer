@@ -1,0 +1,1183 @@
+{
+  "stats": {
+    "total_jobs": 5000,
+    "avg_salary_rub": 266006,
+    "median_salary_rub": 253500,
+    "top_category": "IT",
+    "remote_percentage": 66,
+    "top_skill": "Python",
+    "top_location": "Москва",
+    "date_range": {
+      "from": "2026-04-12",
+      "to": "2026-05-11"
+    }
+  },
+  "salary_distribution": [
+    {
+      "range": "0-50k",
+      "count": 1,
+      "data_science": 0,
+      "it": 1
+    },
+    {
+      "range": "50k-100k",
+      "count": 263,
+      "data_science": 94,
+      "it": 169
+    },
+    {
+      "range": "100k-150k",
+      "count": 665,
+      "data_science": 149,
+      "it": 516
+    },
+    {
+      "range": "150k-200k",
+      "count": 377,
+      "data_science": 219,
+      "it": 158
+    },
+    {
+      "range": "200k-250k",
+      "count": 408,
+      "data_science": 61,
+      "it": 347
+    },
+    {
+      "range": "250k-300k",
+      "count": 595,
+      "data_science": 193,
+      "it": 402
+    },
+    {
+      "range": "300k-350k",
+      "count": 327,
+      "data_science": 193,
+      "it": 134
+    },
+    {
+      "range": "350k-400k",
+      "count": 215,
+      "data_science": 76,
+      "it": 139
+    },
+    {
+      "range": "400k-450k",
+      "count": 231,
+      "data_science": 50,
+      "it": 181
+    },
+    {
+      "range": "450k-500k",
+      "count": 210,
+      "data_science": 89,
+      "it": 121
+    },
+    {
+      "range": "500k-550k",
+      "count": 152,
+      "data_science": 80,
+      "it": 72
+    },
+    {
+      "range": "550k-600k",
+      "count": 74,
+      "data_science": 62,
+      "it": 12
+    },
+    {
+      "range": "600k+",
+      "count": 19,
+      "data_science": 19,
+      "it": 0
+    }
+  ],
+  "top_skills": [
+    {
+      "skill": "Python",
+      "count": 1995,
+      "data_science": 818,
+      "it": 1177
+    },
+    {
+      "skill": "SQL",
+      "count": 1620,
+      "data_science": 692,
+      "it": 928
+    },
+    {
+      "skill": "Git",
+      "count": 1571,
+      "data_science": 486,
+      "it": 1085
+    },
+    {
+      "skill": "Docker",
+      "count": 1206,
+      "data_science": 384,
+      "it": 822
+    },
+    {
+      "skill": "JavaScript",
+      "count": 813,
+      "data_science": 0,
+      "it": 813
+    },
+    {
+      "skill": "Linux",
+      "count": 775,
+      "data_science": 0,
+      "it": 775
+    },
+    {
+      "skill": "Machine Learning",
+      "count": 689,
+      "data_science": 689,
+      "it": 0
+    },
+    {
+      "skill": "PostgreSQL",
+      "count": 672,
+      "data_science": 0,
+      "it": 672
+    },
+    {
+      "skill": "TypeScript",
+      "count": 655,
+      "data_science": 0,
+      "it": 655
+    },
+    {
+      "skill": "Pandas",
+      "count": 617,
+      "data_science": 617,
+      "it": 0
+    },
+    {
+      "skill": "CI/CD",
+      "count": 613,
+      "data_science": 0,
+      "it": 613
+    },
+    {
+      "skill": "REST API",
+      "count": 608,
+      "data_science": 0,
+      "it": 608
+    },
+    {
+      "skill": "Java",
+      "count": 580,
+      "data_science": 0,
+      "it": 580
+    },
+    {
+      "skill": "React",
+      "count": 555,
+      "data_science": 0,
+      "it": 555
+    },
+    {
+      "skill": "NumPy",
+      "count": 538,
+      "data_science": 538,
+      "it": 0
+    },
+    {
+      "skill": "Scikit-learn",
+      "count": 538,
+      "data_science": 538,
+      "it": 0
+    },
+    {
+      "skill": "Node.js",
+      "count": 534,
+      "data_science": 0,
+      "it": 534
+    },
+    {
+      "skill": "Kubernetes",
+      "count": 481,
+      "data_science": 0,
+      "it": 481
+    },
+    {
+      "skill": "Jupyter",
+      "count": 472,
+      "data_science": 472,
+      "it": 0
+    },
+    {
+      "skill": "PyTorch",
+      "count": 458,
+      "data_science": 458,
+      "it": 0
+    },
+    {
+      "skill": "TensorFlow",
+      "count": 450,
+      "data_science": 450,
+      "it": 0
+    },
+    {
+      "skill": "Microservices",
+      "count": 445,
+      "data_science": 0,
+      "it": 445
+    },
+    {
+      "skill": "Redis",
+      "count": 423,
+      "data_science": 0,
+      "it": 423
+    },
+    {
+      "skill": "MySQL",
+      "count": 381,
+      "data_science": 0,
+      "it": 381
+    },
+    {
+      "skill": "Spring",
+      "count": 373,
+      "data_science": 0,
+      "it": 373
+    },
+    {
+      "skill": "Go",
+      "count": 361,
+      "data_science": 0,
+      "it": 361
+    },
+    {
+      "skill": "A/B Testing",
+      "count": 356,
+      "data_science": 356,
+      "it": 0
+    },
+    {
+      "skill": "Statistical Analysis",
+      "count": 341,
+      "data_science": 341,
+      "it": 0
+    },
+    {
+      "skill": "Django",
+      "count": 340,
+      "data_science": 0,
+      "it": 340
+    },
+    {
+      "skill": "Nginx",
+      "count": 335,
+      "data_science": 0,
+      "it": 335
+    }
+  ],
+  "geographic_distribution": [
+    {
+      "region": "Москва",
+      "count": 2407,
+      "avg_salary": 289485
+    },
+    {
+      "region": "Санкт-Петербург",
+      "count": 1027,
+      "avg_salary": 263559
+    },
+    {
+      "region": "Новосибирск",
+      "count": 280,
+      "avg_salary": 225760
+    },
+    {
+      "region": "Екатеринбург",
+      "count": 211,
+      "avg_salary": 223817
+    },
+    {
+      "region": "Казань",
+      "count": 158,
+      "avg_salary": 230206
+    },
+    {
+      "region": "Нижний Новгород",
+      "count": 154,
+      "avg_salary": 222699
+    },
+    {
+      "region": "Ростов-на-Дону",
+      "count": 111,
+      "avg_salary": 217454
+    },
+    {
+      "region": "Самара",
+      "count": 83,
+      "avg_salary": 252258
+    },
+    {
+      "region": "Краснодар",
+      "count": 73,
+      "avg_salary": 278316
+    },
+    {
+      "region": "Воронеж",
+      "count": 49,
+      "avg_salary": 215191
+    },
+    {
+      "region": "Пермь",
+      "count": 49,
+      "avg_salary": 229523
+    },
+    {
+      "region": "Уфа",
+      "count": 48,
+      "avg_salary": 216242
+    },
+    {
+      "region": "Красноярск",
+      "count": 45,
+      "avg_salary": 251288
+    },
+    {
+      "region": "Омск",
+      "count": 44,
+      "avg_salary": 226917
+    },
+    {
+      "region": "Челябинск",
+      "count": 41,
+      "avg_salary": 257788
+    }
+  ],
+  "experience_distribution": [
+    {
+      "level": "No experience",
+      "count": 381,
+      "avg_salary": 69988
+    },
+    {
+      "level": "1-3 years",
+      "count": 1475,
+      "avg_salary": 143232
+    },
+    {
+      "level": "3-6 years",
+      "count": 1909,
+      "avg_salary": 272646
+    },
+    {
+      "level": "6+ years",
+      "count": 1235,
+      "avg_salary": 457746
+    }
+  ],
+  "category_distribution": [
+    {
+      "category": "IT",
+      "subcategory": "Backend Developer",
+      "count": 647,
+      "avg_salary": 255696
+    },
+    {
+      "category": "IT",
+      "subcategory": "Frontend Developer",
+      "count": 496,
+      "avg_salary": 254759
+    },
+    {
+      "category": "IT",
+      "subcategory": "Full-stack Developer",
+      "count": 427,
+      "avg_salary": 238900
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Scientist",
+      "count": 393,
+      "avg_salary": 299764
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "ML Engineer",
+      "count": 340,
+      "avg_salary": 290002
+    },
+    {
+      "category": "IT",
+      "subcategory": "DevOps Engineer",
+      "count": 317,
+      "avg_salary": 241613
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Analyst",
+      "count": 299,
+      "avg_salary": 290175
+    },
+    {
+      "category": "IT",
+      "subcategory": "QA Engineer",
+      "count": 252,
+      "avg_salary": 250254
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Engineer",
+      "count": 238,
+      "avg_salary": 290338
+    },
+    {
+      "category": "IT",
+      "subcategory": "Project Manager",
+      "count": 223,
+      "avg_salary": 269925
+    },
+    {
+      "category": "IT",
+      "subcategory": "Product Manager",
+      "count": 170,
+      "avg_salary": 245321
+    },
+    {
+      "category": "IT",
+      "subcategory": "Mobile Developer",
+      "count": 159,
+      "avg_salary": 248676
+    },
+    {
+      "category": "IT",
+      "subcategory": "System Administrator",
+      "count": 139,
+      "avg_salary": 251229
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "NLP Engineer",
+      "count": 122,
+      "avg_salary": 281570
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "AI Researcher",
+      "count": 98,
+      "avg_salary": 306805
+    },
+    {
+      "category": "IT",
+      "subcategory": "DBA",
+      "count": 96,
+      "avg_salary": 233621
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Computer Vision Engineer",
+      "count": 93,
+      "avg_salary": 296729
+    },
+    {
+      "category": "IT",
+      "subcategory": "Security Engineer",
+      "count": 86,
+      "avg_salary": 238316
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "BI Analyst",
+      "count": 83,
+      "avg_salary": 282225
+    },
+    {
+      "category": "IT",
+      "subcategory": "Cloud Engineer",
+      "count": 71,
+      "avg_salary": 265244
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Deep Learning Engineer",
+      "count": 70,
+      "avg_salary": 282046
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Business Analyst",
+      "count": 65,
+      "avg_salary": 293182
+    },
+    {
+      "category": "IT",
+      "subcategory": "Tech Lead",
+      "count": 58,
+      "avg_salary": 263598
+    },
+    {
+      "category": "IT",
+      "subcategory": "Architect",
+      "count": 58,
+      "avg_salary": 279875
+    }
+  ],
+  "employment_distribution": [
+    {
+      "type": "Full-time",
+      "count": 4253
+    },
+    {
+      "type": "Part-time",
+      "count": 253
+    },
+    {
+      "type": "Contract",
+      "count": 353
+    },
+    {
+      "type": "Internship",
+      "count": 141
+    }
+  ],
+  "remote_distribution": [
+    {
+      "type": "Remote",
+      "count": 2019
+    },
+    {
+      "type": "On-site",
+      "count": 1721
+    },
+    {
+      "type": "Hybrid",
+      "count": 1260
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-12",
+      "count": 241,
+      "data_science": 82,
+      "it": 159
+    },
+    {
+      "date": "2026-04-13",
+      "count": 230,
+      "data_science": 81,
+      "it": 149
+    },
+    {
+      "date": "2026-04-14",
+      "count": 227,
+      "data_science": 79,
+      "it": 148
+    },
+    {
+      "date": "2026-04-15",
+      "count": 220,
+      "data_science": 76,
+      "it": 144
+    },
+    {
+      "date": "2026-04-16",
+      "count": 216,
+      "data_science": 86,
+      "it": 130
+    },
+    {
+      "date": "2026-04-17",
+      "count": 203,
+      "data_science": 83,
+      "it": 120
+    },
+    {
+      "date": "2026-04-18",
+      "count": 212,
+      "data_science": 85,
+      "it": 127
+    },
+    {
+      "date": "2026-04-19",
+      "count": 213,
+      "data_science": 76,
+      "it": 137
+    },
+    {
+      "date": "2026-04-20",
+      "count": 191,
+      "data_science": 69,
+      "it": 122
+    },
+    {
+      "date": "2026-04-21",
+      "count": 204,
+      "data_science": 68,
+      "it": 136
+    },
+    {
+      "date": "2026-04-22",
+      "count": 184,
+      "data_science": 42,
+      "it": 142
+    },
+    {
+      "date": "2026-04-23",
+      "count": 195,
+      "data_science": 67,
+      "it": 128
+    },
+    {
+      "date": "2026-04-24",
+      "count": 202,
+      "data_science": 65,
+      "it": 137
+    },
+    {
+      "date": "2026-04-25",
+      "count": 182,
+      "data_science": 65,
+      "it": 117
+    },
+    {
+      "date": "2026-04-26",
+      "count": 196,
+      "data_science": 80,
+      "it": 116
+    },
+    {
+      "date": "2026-04-27",
+      "count": 172,
+      "data_science": 55,
+      "it": 117
+    },
+    {
+      "date": "2026-04-28",
+      "count": 151,
+      "data_science": 53,
+      "it": 98
+    },
+    {
+      "date": "2026-04-29",
+      "count": 191,
+      "data_science": 62,
+      "it": 129
+    },
+    {
+      "date": "2026-04-30",
+      "count": 141,
+      "data_science": 49,
+      "it": 92
+    },
+    {
+      "date": "2026-05-01",
+      "count": 171,
+      "data_science": 65,
+      "it": 106
+    },
+    {
+      "date": "2026-05-02",
+      "count": 128,
+      "data_science": 50,
+      "it": 78
+    },
+    {
+      "date": "2026-05-03",
+      "count": 126,
+      "data_science": 41,
+      "it": 85
+    },
+    {
+      "date": "2026-05-04",
+      "count": 120,
+      "data_science": 49,
+      "it": 71
+    },
+    {
+      "date": "2026-05-05",
+      "count": 149,
+      "data_science": 67,
+      "it": 82
+    },
+    {
+      "date": "2026-05-06",
+      "count": 131,
+      "data_science": 58,
+      "it": 73
+    },
+    {
+      "date": "2026-05-07",
+      "count": 109,
+      "data_science": 42,
+      "it": 67
+    },
+    {
+      "date": "2026-05-08",
+      "count": 97,
+      "data_science": 41,
+      "it": 56
+    },
+    {
+      "date": "2026-05-09",
+      "count": 80,
+      "data_science": 28,
+      "it": 52
+    },
+    {
+      "date": "2026-05-10",
+      "count": 71,
+      "data_science": 23,
+      "it": 48
+    },
+    {
+      "date": "2026-05-11",
+      "count": 47,
+      "data_science": 14,
+      "it": 33
+    }
+  ],
+  "salary_by_category": [
+    {
+      "category": "IT",
+      "subcategory": "Backend Developer",
+      "min": 54500,
+      "max": 564000,
+      "avg": 255696,
+      "median": 243000,
+      "count": 463
+    },
+    {
+      "category": "IT",
+      "subcategory": "Frontend Developer",
+      "min": 52500,
+      "max": 557000,
+      "avg": 254759,
+      "median": 244500,
+      "count": 341
+    },
+    {
+      "category": "IT",
+      "subcategory": "Full-stack Developer",
+      "min": 52000,
+      "max": 554500,
+      "avg": 238900,
+      "median": 229000,
+      "count": 304
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Scientist",
+      "min": 57000,
+      "max": 648500,
+      "avg": 299764,
+      "median": 292500,
+      "count": 266
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "ML Engineer",
+      "min": 58500,
+      "max": 657000,
+      "avg": 290002,
+      "median": 282000,
+      "count": 245
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Analyst",
+      "min": 53000,
+      "max": 640000,
+      "avg": 290175,
+      "median": 277000,
+      "count": 218
+    },
+    {
+      "category": "IT",
+      "subcategory": "DevOps Engineer",
+      "min": 52500,
+      "max": 557000,
+      "avg": 241613,
+      "median": 244000,
+      "count": 213
+    },
+    {
+      "category": "IT",
+      "subcategory": "QA Engineer",
+      "min": 55000,
+      "max": 576000,
+      "avg": 250254,
+      "median": 246000,
+      "count": 188
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Data Engineer",
+      "min": 60000,
+      "max": 647000,
+      "avg": 290338,
+      "median": 282500,
+      "count": 177
+    },
+    {
+      "category": "IT",
+      "subcategory": "Project Manager",
+      "min": 52000,
+      "max": 537500,
+      "avg": 269925,
+      "median": 257000,
+      "count": 161
+    },
+    {
+      "category": "IT",
+      "subcategory": "Mobile Developer",
+      "min": 61000,
+      "max": 494000,
+      "avg": 248676,
+      "median": 238000,
+      "count": 119
+    },
+    {
+      "category": "IT",
+      "subcategory": "Product Manager",
+      "min": 52500,
+      "max": 561500,
+      "avg": 245321,
+      "median": 242000,
+      "count": 113
+    },
+    {
+      "category": "IT",
+      "subcategory": "System Administrator",
+      "min": 49500,
+      "max": 579500,
+      "avg": 251229,
+      "median": 239500,
+      "count": 97
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "NLP Engineer",
+      "min": 67000,
+      "max": 603250,
+      "avg": 281570,
+      "median": 271000,
+      "count": 89
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Computer Vision Engineer",
+      "min": 59500,
+      "max": 666000,
+      "avg": 296729,
+      "median": 241500,
+      "count": 72
+    },
+    {
+      "category": "IT",
+      "subcategory": "DBA",
+      "min": 50000,
+      "max": 502000,
+      "avg": 233621,
+      "median": 235500,
+      "count": 66
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "AI Researcher",
+      "min": 66000,
+      "max": 570500,
+      "avg": 306805,
+      "median": 313500,
+      "count": 64
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "BI Analyst",
+      "min": 64000,
+      "max": 636500,
+      "avg": 282225,
+      "median": 274500,
+      "count": 61
+    },
+    {
+      "category": "IT",
+      "subcategory": "Security Engineer",
+      "min": 56500,
+      "max": 540000,
+      "avg": 238316,
+      "median": 215500,
+      "count": 61
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Deep Learning Engineer",
+      "min": 79500,
+      "max": 564500,
+      "avg": 282046,
+      "median": 276000,
+      "count": 49
+    },
+    {
+      "category": "IT",
+      "subcategory": "Cloud Engineer",
+      "min": 70500,
+      "max": 594000,
+      "avg": 265244,
+      "median": 220000,
+      "count": 45
+    },
+    {
+      "category": "Data Science",
+      "subcategory": "Business Analyst",
+      "min": 69500,
+      "max": 604500,
+      "avg": 293182,
+      "median": 275500,
+      "count": 44
+    },
+    {
+      "category": "IT",
+      "subcategory": "Tech Lead",
+      "min": 53000,
+      "max": 530500,
+      "avg": 263598,
+      "median": 243000,
+      "count": 41
+    },
+    {
+      "category": "IT",
+      "subcategory": "Architect",
+      "min": 112500,
+      "max": 565000,
+      "avg": 279875,
+      "median": 250500,
+      "count": 40
+    }
+  ],
+  "top_companies": [
+    {
+      "company": "Yandex",
+      "count": 337,
+      "avg_salary": 263047
+    },
+    {
+      "company": "Sberbank",
+      "count": 322,
+      "avg_salary": 272100
+    },
+    {
+      "company": "Tinkoff",
+      "count": 270,
+      "avg_salary": 268068
+    },
+    {
+      "company": "VK",
+      "count": 238,
+      "avg_salary": 244171
+    },
+    {
+      "company": "Mail.ru Group",
+      "count": 213,
+      "avg_salary": 259778
+    },
+    {
+      "company": "Ozon",
+      "count": 198,
+      "avg_salary": 287010
+    },
+    {
+      "company": "Kaspersky",
+      "count": 170,
+      "avg_salary": 259160
+    },
+    {
+      "company": "1C",
+      "count": 159,
+      "avg_salary": 255623
+    },
+    {
+      "company": "Alfa-Bank",
+      "count": 146,
+      "avg_salary": 280183
+    },
+    {
+      "company": "MTS",
+      "count": 137,
+      "avg_salary": 277568
+    },
+    {
+      "company": "Rostelecom",
+      "count": 132,
+      "avg_salary": 261489
+    },
+    {
+      "company": "Avito",
+      "count": 125,
+      "avg_salary": 265366
+    },
+    {
+      "company": "Wildberries",
+      "count": 124,
+      "avg_salary": 273961
+    },
+    {
+      "company": "Gazprom-neft",
+      "count": 122,
+      "avg_salary": 250060
+    },
+    {
+      "company": "Beeline",
+      "count": 118,
+      "avg_salary": 240122
+    },
+    {
+      "company": "HeadHunter",
+      "count": 114,
+      "avg_salary": 290171
+    },
+    {
+      "company": "JetBrains",
+      "count": 96,
+      "avg_salary": 254747
+    },
+    {
+      "company": "Positive Technologies",
+      "count": 86,
+      "avg_salary": 241684
+    },
+    {
+      "company": "Huawei Russia",
+      "count": 81,
+      "avg_salary": 296513
+    },
+    {
+      "company": "Accenture",
+      "count": 79,
+      "avg_salary": 256283
+    }
+  ],
+  "skill_correlation": [
+    {
+      "skill": "Python",
+      "data_science_count": 818,
+      "it_count": 1177
+    },
+    {
+      "skill": "SQL",
+      "data_science_count": 692,
+      "it_count": 928
+    },
+    {
+      "skill": "Git",
+      "data_science_count": 486,
+      "it_count": 1085
+    },
+    {
+      "skill": "Docker",
+      "data_science_count": 384,
+      "it_count": 822
+    },
+    {
+      "skill": "JavaScript",
+      "data_science_count": 0,
+      "it_count": 813
+    },
+    {
+      "skill": "Linux",
+      "data_science_count": 0,
+      "it_count": 775
+    },
+    {
+      "skill": "Machine Learning",
+      "data_science_count": 689,
+      "it_count": 0
+    },
+    {
+      "skill": "PostgreSQL",
+      "data_science_count": 0,
+      "it_count": 672
+    },
+    {
+      "skill": "TypeScript",
+      "data_science_count": 0,
+      "it_count": 655
+    },
+    {
+      "skill": "Pandas",
+      "data_science_count": 617,
+      "it_count": 0
+    },
+    {
+      "skill": "CI/CD",
+      "data_science_count": 0,
+      "it_count": 613
+    },
+    {
+      "skill": "REST API",
+      "data_science_count": 0,
+      "it_count": 608
+    },
+    {
+      "skill": "Java",
+      "data_science_count": 0,
+      "it_count": 580
+    },
+    {
+      "skill": "React",
+      "data_science_count": 0,
+      "it_count": 555
+    },
+    {
+      "skill": "NumPy",
+      "data_science_count": 538,
+      "it_count": 0
+    },
+    {
+      "skill": "Scikit-learn",
+      "data_science_count": 538,
+      "it_count": 0
+    },
+    {
+      "skill": "Node.js",
+      "data_science_count": 0,
+      "it_count": 534
+    },
+    {
+      "skill": "Kubernetes",
+      "data_science_count": 0,
+      "it_count": 481
+    },
+    {
+      "skill": "Jupyter",
+      "data_science_count": 472,
+      "it_count": 0
+    },
+    {
+      "skill": "PyTorch",
+      "data_science_count": 458,
+      "it_count": 0
+    },
+    {
+      "skill": "TensorFlow",
+      "data_science_count": 450,
+      "it_count": 0
+    },
+    {
+      "skill": "Microservices",
+      "data_science_count": 0,
+      "it_count": 445
+    },
+    {
+      "skill": "Redis",
+      "data_science_count": 0,
+      "it_count": 423
+    },
+    {
+      "skill": "MySQL",
+      "data_science_count": 0,
+      "it_count": 381
+    },
+    {
+      "skill": "Spring",
+      "data_science_count": 0,
+      "it_count": 373
+    }
+  ]
+}

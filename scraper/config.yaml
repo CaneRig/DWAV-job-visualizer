@@ -1,0 +1,251 @@
+# hh.ru Job Scraper Configuration
+# ==================================
+
+# Target number of cleaned job postings to collect
+target_count: 5000
+
+# Search queries: each defines a text search term and specialization filter
+search_queries:
+  - text: "Data Scientist"
+    specialization: "1.221"
+  - text: "Machine Learning"
+    specialization: "1.221"
+  - text: "Аналитик данных"
+    specialization: "1.9"
+  - text: "Data Engineer"
+    specialization: "1.221"
+  - text: "Программист"
+    specialization: "1.173"
+  - text: "Разработчик"
+    specialization: "1.173"
+  - text: "DevOps"
+    specialization: "1.83"
+  - text: "QA инженер"
+    specialization: "1.25"
+  - text: "Artificial Intelligence"
+    specialization: "1.221"
+  - text: "Deep Learning"
+    specialization: "1.221"
+  - text: "NLP"
+    specialization: "1.221"
+  - text: "Business Analyst"
+    specialization: "1.9"
+  - text: "System Administrator"
+    specialization: "1.82"
+  - text: "Product Manager"
+    specialization: "1.89"
+  - text: "Project Manager"
+    specialization: "1.137"
+  - text: "Python разработчик"
+    specialization: "1.173"
+  - text: "Frontend"
+    specialization: "1.173"
+  - text: "Backend"
+    specialization: "1.173"
+  - text: "Fullstack"
+    specialization: "1.173"
+
+# Area (city/region) IDs to search in
+areas:
+  - 1    # Moscow
+  - 2    # St. Petersburg
+  - 4    # Novosibirsk
+  - 57   # Yekaterinburg
+  - 60   # Kazan
+  - 68   # Rostov-on-Don
+  - 91   # Nizhny Novgorod
+
+# How many days back to search for job postings
+date_range_days: 30
+
+# Delay between API requests in seconds (hh.ru limits: ~30 req/min)
+request_delay_seconds: 2.1
+
+# Maximum retries for failed requests
+max_retries: 3
+
+# Backoff factor for retries (delay = backoff_factor * 2^retry_number)
+backoff_factor: 1
+
+# Output directory for JSON files
+output_dir: "output"
+
+# State file for resume capability
+state_file: "scraper_state.json"
+
+# Logging
+log_file: "scraper.log"
+log_level: "INFO"
+
+# Rate limiting
+requests_per_minute: 28  # slightly under 30 to be safe
+
+# Currency conversion rates to RUB (approximate)
+currency_rates:
+  RUR: 1.0
+  RUB: 1.0
+  USD: 92.0
+  EUR: 100.0
+  BYR: 0.029
+  UAH: 2.5
+  KZT: 0.2
+
+# Skill normalization mappings
+skill_normalization:
+  # Python variants
+  "Python3": "Python"
+  "python": "Python"
+  "python3": "Python"
+  "Питон": "Python"
+  # ML variants
+  "ML": "Machine Learning"
+  "ml": "Machine Learning"
+  "Машинное обучение": "Machine Learning"
+  "Machine learning": "Machine Learning"
+  "machine learning": "Machine Learning"
+  # DL variants
+  "DL": "Deep Learning"
+  "dl": "Deep Learning"
+  "Глубокое обучение": "Deep Learning"
+  "Deep learning": "Deep Learning"
+  # NLP variants
+  "Natural Language Processing": "NLP"
+  "natural language processing": "NLP"
+  "Обработка естественного языка": "NLP"
+  # AI variants
+  "AI": "Artificial Intelligence"
+  "ai": "Artificial Intelligence"
+  "Искусственный интеллект": "Artificial Intelligence"
+  # Data Science
+  "Data science": "Data Science"
+  "data science": "Data Science"
+  "Дата саентист": "Data Science"
+  # SQL variants
+  "sql": "SQL"
+  "Sql": "SQL"
+  # Docker
+  "docker": "Docker"
+  "Docker compose": "Docker"
+  "docker-compose": "Docker"
+  # Kubernetes
+  "k8s": "Kubernetes"
+  "kubernetes": "Kubernetes"
+  # Git variants
+  "git": "Git"
+  # JS variants
+  "JavaScript": "JavaScript"
+  "javascript": "JavaScript"
+  "Js": "JavaScript"
+  "js": "JavaScript"
+  "ECMAScript": "JavaScript"
+  # TypeScript
+  "typescript": "TypeScript"
+  "TS": "TypeScript"
+  "ts": "TypeScript"
+  # React
+  "react": "React"
+  "reactjs": "React"
+  "react.js": "React"
+  # Node.js
+  "node": "Node.js"
+  "nodejs": "Node.js"
+  "node.js": "Node.js"
+  # AWS
+  "aws": "AWS"
+  "Amazon Web Services": "AWS"
+  # CI/CD
+  "CI/CD": "CI/CD"
+  "ci/cd": "CI/CD"
+  "CICD": "CI/CD"
+  # PostgreSQL
+  "postgres": "PostgreSQL"
+  "Postgres": "PostgreSQL"
+  "postgresql": "PostgreSQL"
+  "PostgreSQL": "PostgreSQL"
+  # Linux
+  "linux": "Linux"
+  "Линукс": "Linux"
+  # Pandas
+  "pandas": "Pandas"
+  "Pandas": "Pandas"
+  # TensorFlow
+  "tensorflow": "TensorFlow"
+  "tf": "TensorFlow"
+  # PyTorch
+  "pytorch": "PyTorch"
+  "PyTorch": "PyTorch"
+  # Scikit-learn
+  "sklearn": "Scikit-learn"
+  "scikit-learn": "Scikit-learn"
+  "Scikit-learn": "Scikit-learn"
+  # Rest API
+  "REST": "REST API"
+  "REST API": "REST API"
+  "RESTful": "REST API"
+  # Agile
+  "agile": "Agile"
+  "Agile": "Agile"
+  # Scrum
+  "scrum": "Scrum"
+  "Scrum": "Scrum"
+
+# Specialization to subcategory mapping
+specialization_mapping:
+  "1.221": "Data Science / Machine Learning"
+  "1.9": "Analyst"
+  "1.25": "Testing / QA"
+  "1.82": "System Administration"
+  "1.89": "Product Management"
+  "1.39": "Finance / Management"
+  "1.47": "Consulting"
+  "1.83": "DevOps"
+  "1.116": "DBA"
+  "1.137": "Project Management"
+  "1.173": "Programming"
+
+# Area ID to region name mapping
+area_mapping:
+  1: "Moscow"
+  2: "St. Petersburg"
+  4: "Novosibirsk"
+  57: "Yekaterinburg"
+  60: "Kazan"
+  68: "Rostov-on-Don"
+  91: "Nizhny Novgorod"
+  3: "Other"
+
+# Data Science keywords for classification
+data_science_keywords:
+  - "data scientist"
+  - "data science"
+  - "machine learning"
+  - "ml engineer"
+  - "ml инженер"
+  - "nlp"
+  - "deep learning"
+  - "нейросет"
+  - "искусственный интеллект"
+  - "artificial intelligence"
+  - "аналитик данных"
+  - "data analyst"
+  - "data engineer"
+  - "инженер данных"
+  - "big data"
+  - "анализ данных"
+  - "computer vision"
+  - "компьютерное зрение"
+  - "data mining"
+  - "predictive"
+  - "аномали"
+  - "рекомендательн"
+  - "llm"
+  - "gpt"
+  - "transformer"
+  - "pytorch"
+  - "tensorflow"
+  - "spark"
+  - "hadoop"
+  - "pandas"
+  - "scikit"
+  - "jupyter"
+  - "kaggle"
